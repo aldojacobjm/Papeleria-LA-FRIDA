@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papelería VerdeMenta</title>
+
+    <style>
+        /* --- Estilos generales --- */
+        body {
+            font-family: "Poppins", sans-serif;
+            background-color: #fffaf2; /* fondo crema */
+            margin: 0;
+            color: #333;
+        }
+
+        /* --- Encabezado --- */
+        header {
+            background-color: #b6e2a1; /* verde pastel */
+            color: #2e5c2c;
+            text-align: center;
+            padding: 25px;
+            font-size: 2em;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        /* --- Menú de navegación --- */
+        nav {
+            background-color: #f7d9e3; /* rosa claro */
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #2e5c2c;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #91c788;
+        }
+
+        /* --- Secciones --- */
+        section {
+            padding: 30px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #4f9d69; /* verde medio */
+            margin-bottom: 10px;
+        }
+
+        .productos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        .producto {
+            background-color: #ffffff;
+            border: 1px solid #f7d9e3;
+            border-radius: 12px;
+            width: 230px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .producto:hover {
+            transform: scale(1.03);
+        }
+
+        .producto img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .producto h3 {
+            color: #4f9d69;
+            margin-top: 10px;
+        }
+
+        .producto p {
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        .precio {
+            color: #e57373;
+            font-weight: bold;
+            margin-top: 8px;
+        }
+
+        /* --- Pie de página --- */
+        footer {
+            background-color: #b6e2a1;
+            color: #2e5c2c;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado principal -->
+    <header>
+        🌿 Papelería "LA FRIDA" 🌿
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Productos</a>
+        <a href="#">Ofertas</a>
+        <a href="#">Contactos</a>
+    </nav>
+
+    <!-- Sección principal de bienvenida -->
+    <section id="inicio">
+        <h2>Bienvenido/a a La Frida</h2>
+        <p>Tu rincón de papelería artistica,con personalidad, colorida y con mucho amor 🌱✨</p>
+    </section>
+
+    <!-- Sección de productos -->
+    <section id="productos">
+        <h2>Productos en stock</h2>
+
+        <div class="productos">
+            <!-- Cada bloque .producto representa un artículo -->
+            <div class="producto">
+                <!-- Sustituye el texto del src por el enlace real de una imagen -->
+                <img src="lapiz.png" alt="Lápices">
+                <h3>Lápices</h3>
+                <p>Perfectos para bocetos, tareas o notas rápidas. Hechos de madera natural.</p>
+                <div class="precio">$10.00 MXN c/u</div>
+            </div>
+
+            <div class="producto">
+                <img src="pluma.jpg" alt="Plumas">
+                <h3>Plumas</h3>
+                <p>Escritura suave y elegante. Disponibles en azul, negro y rojo.</p>
+                <div class="precio">$8.00 MXN c/u</div>
+            </div>
+
+            <div class="producto">
+                <img src="pluma de gel.png" alt="Plumas de gel">
+                <h3>Plumas de gel</h3>
+                <p>Ideales para apuntes creativos o bullet journals. Colores vibrantes.</p>
+                <div class="precio">$20.00 MXN c/u</div>
+            </div>
+
+            <div class="producto">
+                <img src="gomas.png" alt="Gomas">
+                <h3>Gomas</h3>
+                <p>Suaves, sin manchas y con aromas frutales. 🩷</p>
+                <div class="precio">$4.00 MXN c/u</div>
+            </div>
+
+            <div class="producto">
+                <img src="papeleria hojas.jpeg" alt="Hojas y papel">
+                <h3>Hojas y papel</h3>
+                <p>Variedad de gramajes y colores. Perfectas para proyectos y tareas.</p>
+                <div class="precio">$150.00 MXN el paquete o $1.00 MXN c/u </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <p>📍 P.º de La Plata Sur Manzana 018, Joyas de Cuautitlan, El Terremoto, 54803 Cuautitlán, Méx. | 📞 +525572682119 </p>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        © 2025 Papelería La Frida — Inspirando tu creatividad 🌸
+    </footer>
+
+</body>
+</html>
